@@ -5,6 +5,7 @@ import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import visualizer from 'rollup-plugin-visualizer';
 import copy from 'rollup-plugin-copy';
+import serve from 'rollup-plugin-serve'
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
@@ -47,6 +48,7 @@ function bundle(filename, options = {}) {
           },
         ],
       }),
+      // serve('dist')
     ],
   };
 }

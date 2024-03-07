@@ -1,10 +1,17 @@
 import L, { PointTuple } from 'leaflet';
 import { MapHandlerOptions } from './types';
-import { getUpdatedPositionsMemo, isMultSelKeyDown } from './utils';
+import { isMultSelKeyDown, assign } from './utils';
+import { EventObject } from 'cytoscape';
 
 const DEFAULT_FIT_PADDING: PointTuple = [50, 50];
 const DEFAULT_ANIMATION_DURATION = 1;
 const HIDDEN_CLASS = 'cytoscape-map__hidden';
+
+const DEFAULT_MAP_MOVE_DELAY = 0;
+
+const DEFAULT_LAYOUT = {
+  name: 'preset',
+}
 
 export class MapHandler {
   cy: cytoscape.Core | undefined;
@@ -30,11 +37,15 @@ export class MapHandler {
   onGraphContainerMouseMoveBound = this.onGraphContainerMouseMove.bind(this);
   onGraphContainerWheelBound = this.onGraphContainerWheel.bind(this);
   onMapMoveBound = this.onMapMove.bind(this);
+  // onMapMoveStartBound = this.onMapMoveStart.bind(this);
+  onMapMoveEndBound = this.onMapMoveEnd.bind(this);
 
   onGraphAddBound = this.onGraphAdd.bind(this);
   onGraphResizeBound = this.onGraphResize.bind(this);
   onGraphDragFreeBound = this.onGraphDragFree.bind(this);
   onDataChangeBound = this.onDataChange.bind(this);
+
+  saveLayoutPositionAsLatLngBound = this.saveLayoutPositionAsLatLng.bind(this);
 
   /**
    * @param {cytoscape.Core} cy
@@ -70,19 +81,32 @@ export class MapHandler {
 
     // Cytoscape events
     const graphContainer = this.cy.container() as unknown as HTMLElement;
-    graphContainer.addEventListener(
-      'mousedown',
-      this.onGraphContainerMouseDownBound
-    );
-    graphContainer.addEventListener(
-      'mousemove',
-      this.onGraphContainerMouseMoveBound
-    );
+    // graphContainer.addEventListener(
+    //   'mousedown',
+    //   this.onGraphContainerMouseDownBound
+    // );
+    // graphContainer.addEventListener(
+    //   'mousemove',
+    //   this.onGraphContainerMouseMoveBound
+    // );
+    this.cy.on('tapstart', this.onGraphContainerMouseDownBound);
+
     graphContainer.addEventListener('wheel', this.onGraphContainerWheelBound);
     this.cy.on('add', this.onGraphAddBound);
     this.cy.on('resize', this.onGraphResizeBound);
     this.cy.on('dragfree', this.onGraphDragFreeBound);
+    this.cy.on('cxttap', "node", function(event) {
+      event.target.unlock();
+    });
     this.cy.on('data', this.onDataChangeBound);
+
+    // this.cy.on('layoutstart layoutready layoutstop ready render destroy pan dragpan zoom pinchzoom scrollzoom viewport resize', (evt) => {
+    //   console.log(evt.type);
+    // })
+    //
+    // this.cy.one('render', (evt) => {
+    //   console.log(evt);
+    // })
 
     // Map container
     this.mapContainer = document.createElement('div');
@@ -100,6 +124,8 @@ export class MapHandler {
 
     // Map events
     this.map.on('move', this.onMapMoveBound);
+    // this.map.on('movestart', this.onMapMoveStartBound);
+    this.map.on('moveend', this.onMapMoveEndBound);
 
     // Cytoscape unit viewport
     this.originalZoom = this.cy.zoom();
@@ -132,20 +158,21 @@ export class MapHandler {
     // Cytoscape events
     const graphContainer = this.cy?.container();
     if (graphContainer) {
-      graphContainer.removeEventListener(
-        'mousedown',
-        this.onGraphContainerMouseDownBound
-      );
-      graphContainer.removeEventListener(
-        'mousemove',
-        this.onGraphContainerMouseMoveBound
-      );
+      // graphContainer.removeEventListener(
+      //   'mousedown',
+      //   this.onGraphContainerMouseDownBound
+      // );
+      // graphContainer.removeEventListener(
+      //   'mousemove',
+      //   this.onGraphContainerMouseMoveBound
+      // );
       graphContainer.removeEventListener(
         'wheel',
         this.onGraphContainerWheelBound
       );
     }
     if (this.cy) {
+      this.cy.off('tapstart', this.onGraphContainerMouseDownBound);
       this.cy.off('add', this.onGraphAddBound);
       this.cy.off('resize', this.onGraphResizeBound);
       this.cy.off('dragfree', this.onGraphDragFreeBound);
@@ -162,6 +189,8 @@ export class MapHandler {
 
     // Map events
     this.map?.off('move', this.onMapMoveBound);
+    // this.map?.off('dragstart', this.onMapDragStartBound);
+    this.map?.off('dragend');
 
     // Map instance
     this.map?.remove();
@@ -224,6 +253,71 @@ export class MapHandler {
   }
 
   /**
+   * Save each node current layout position as the current geographical position.
+   * Node's position is saved into its scratch, as <i>leaflet</i> namespace and <i>currentGeoposition<i> LatLng object
+   * @param {cytoscape.NodeCollection} nodes
+   */
+  saveLayoutPositionAsLatLng(nodes = this.cy?.nodes()) {
+    nodes?.forEach((node) => {
+        // if (!(node.scratch('leaflet') && node.scratch('leaflet')['currentGeoposition'])) {
+        // @ts-ignore
+      node.scratch('leaflet', {currentGeoposition: this.map?.containerPointToLatLng(node.position())})
+        // }
+      }
+    );
+
+  }
+
+  /**
+   * Delete layout geographic position from each node's scratch
+   * @param nodes
+   */
+  deleteLatLngLayoutPosition(nodes= this.cy?.nodes()) {
+    nodes?.forEach((node) => {
+      if (node.scratch('leaflet') && node.scratch('leaflet').currentGeoposition) {
+        delete node.scratch('leaflet').currentGeoposition;
+      }
+    });
+  }
+
+  /**
+   * Update nodes positions (calling node.position() method)
+   * and (optionally) hide nodes without geographical position
+   * @private
+   */
+  updateNodePosition(nodes = this.cy?.nodes()) {
+    nodes?.forEach((node) => {
+
+      // let wasLocked = node.locked();
+
+      // if (wasLocked) node.unlock();
+
+      node.unlock();
+      let position = this.getGeographicPosition(node);
+      if(position) {
+        node.position(position);
+        // if (this.getNodeLngLat(node)) { // nodes that have native geographical positions cannot be dragged
+        node.lock();
+        // }
+      }
+
+      // hide nodes without position
+      if (!position && this.options?.hideNonPositional) {
+        // const nodesWithoutPosition = nodes.filter(node => !positions[node.id()]);
+        node.addClass(HIDDEN_CLASS).style('display', 'none');
+      }
+    });
+  }
+
+  /**
+   * @return {cytoscape.LayoutOptions}
+   * @param {*} [customOptions]
+   */
+  getLayout(customOptions: any = undefined) {
+    return assign(DEFAULT_LAYOUT, this.options?.layout, customOptions);
+  }
+
+  /**
    * @private
    */
   private enableGeographicPositions() {
@@ -236,6 +330,7 @@ export class MapHandler {
       })
     );
 
+    /*
     const positions: cytoscape.NodePositionMap = Object.fromEntries(
       nodes
         .map((node) => {
@@ -245,22 +340,26 @@ export class MapHandler {
           return !!position;
         })
     );
-
-    // hide nodes without position
-    const nodesWithoutPosition = nodes.filter((node) => !positions[node.id()]);
-    nodesWithoutPosition.addClass(HIDDEN_CLASS).style('display', 'none');
-
+    */
+    /*
     this.cy
-      ?.layout({
-        name: 'preset',
-        positions: positions,
-        fit: false,
-        animate: this.options?.animate,
-        animationDuration:
-          this.options?.animationDuration ?? DEFAULT_ANIMATION_DURATION,
-        animationEasing: 'ease-out-cubic',
-      })
+      ?.elements().makeLayout(this.getLayout({
+      fit: false,
+      animate: this.options?.animate,
+      animationDuration: this.options?.animationDuration ?? DEFAULT_ANIMATION_DURATION,
+      animationEasing: 'ease-out-cubic',
+    }))
+      // .one('layoutstop', this.saveLayoutPositionAsLatLngBound)
       .run();
+    */
+
+    this.cy?.nodes().forEach((node) => {
+      if (this.getNodeLngLat(node)) {
+        node.lock();
+      }
+    });
+
+    this.updateNodePosition(nodes);
   }
 
   /**
@@ -270,7 +369,7 @@ export class MapHandler {
   private updateGeographicPositions(
     nodes = this.cy?.nodes() ?? ([] as unknown as cytoscape.NodeCollection)
   ) {
-    const updatePositions = (
+   /* const updatePositions = (
       nodes = this.cy?.nodes() ?? ([] as unknown as cytoscape.NodeCollection)
     ) => {
       const positions: cytoscape.NodePositionMap = Object.fromEntries(
@@ -313,7 +412,9 @@ export class MapHandler {
       function animatedUpdateGeographicPositions() {
         updatePositions(nodes);
       }
-    );
+    );*/
+
+    this.updateNodePosition(nodes);
   }
 
   /**
@@ -323,7 +424,7 @@ export class MapHandler {
     const nodes =
       this.cy?.nodes() ?? ([] as unknown as cytoscape.NodeCollection);
 
-    this.cy
+/*    this.cy
       ?.layout({
         name: 'preset',
         positions: this.originalPositions,
@@ -340,24 +441,58 @@ export class MapHandler {
           nodesWithoutPosition.removeClass(HIDDEN_CLASS).style('display', null);
         },
       })
-      .run();
+      .run();*/
+
+    // show nodes without position
+    if (this.options?.hideNonPositional) {
+      const nodesWithoutPosition = nodes.filter(node => node.hasClass(HIDDEN_CLASS));
+      nodesWithoutPosition.removeClass(HIDDEN_CLASS).style('display', null);
+    }
+
+    nodes.forEach((node) => {
+      // if (this.originalPositions && this.originalPositions[node.id()]) {
+      //   node.position(this.originalPositions[node.id()]);
+      //   node.unlock();
+      // }
+      node.unlock();
+    });
+
+    this.cy?.fit();
+    // this.cy.layout(this.getLayout({
+    //   fit: false,
+    //   animate: this.options.animate,
+    //   animationDuration: this.options.animationDuration ?? DEFAULT_ANIMATION_DURATION,
+    //   animationEasing: 'ease-in-cubic',
+    //   stop: () => {
+    //     // show nodes without position
+    //     const nodesWithoutPosition = nodes.filter(node => node.hasClass(HIDDEN_CLASS));
+    //     nodesWithoutPosition.removeClass(HIDDEN_CLASS).style('display', null);
+    //   }
+    // })).run();
+
+    this.cy?.one('layoutstop', (evt) => {
+      evt.cy.nodes().unlock();
+    });
 
     this.originalPositions = undefined;
   }
 
   /**
    * @private
-   * @param {MouseEvent} event
+   * @param {EventObject} cyEventObject
    */
-  private onGraphContainerMouseDown(event: MouseEvent) {
+  private onGraphContainerMouseDown(cyEventObject: EventObject) {
+    let originalEvent = cyEventObject.originalEvent;
+
     // @ts-ignore
     const renderer = this.cy?.renderer();
     if (
-      event.buttons === 1 &&
-      !isMultSelKeyDown(event) &&
+      this.cy &&
+      originalEvent.buttons === 1 &&
+      !isMultSelKeyDown(originalEvent) &&
       !renderer.hoverData.down
     ) {
-      // @ts-ignore,
+/*      // @ts-ignore,
       if (this.cy) this.cy.renderer().hoverData.dragging = true; // cytoscape-lasso compatibility
       this.dispatchMapEvent(event);
 
@@ -374,25 +509,69 @@ export class MapHandler {
           if (this.cy) this.cy.renderer().hoverData.dragged = true;
         },
         { once: true }
-      );
+      );*/
+
+      // @ts-ignore
+      this.cy.renderer().hoverData.dragging = true; // cytoscape-lasso compatibility
+
+      this.saveLayoutPositionAsLatLng(cyEventObject.cy.nodes());
+      this.dispatchMapEvent(originalEvent);
+
+      // @ts-ignore
+      this.cy.one('tapdrag', this.onGraphContainerMouseMoveBound);
+
+      // this.cy.nodes('#London-NewYork1').on('position', (evt) => {
+      //   let data = {
+      //     position: evt.target.position(),
+      //     rendered: evt.target.renderedPosition(),
+      //     relative: evt.target.relativePosition()
+      //   }
+      //
+      //   if (evt.target.scratch('leaflet')) {
+      //     data['geoposition'] = evt.target.scratch('leaflet').currentGeoposition;
+      //   }
+      //
+      //   console.table(data);
+      // });
+
+      // @ts-ignore
+      cyEventObject.cy.one('tapend', (cyUpEventObject) => {
+        // this.deleteLatLngLayoutPosition(cyUpEventObject.cy.nodes());
+        // this.updateGeographicPositions(cyUpEventObject.cy.nodes());
+
+        // console.warn("TAPEND");
+        // setTimeout(()=>{
+        //   this.cy.nodes('#London-NewYork1').off('position');
+        // }, 500);
+
+        if (!this.panning) {
+          return;
+        }
+
+        this.panning = false;
+
+        // @ts-ignore,  prevent unselecting in Cytoscape mouseup
+        this.cy.renderer().hoverData.dragged = true;
+      });
     }
   }
 
   /**
    * @private
-   * @param {MouseEvent} event
+   * @param {cytoscape.EventObject} cyEventObject
    */
-  private onGraphContainerMouseMove(event: MouseEvent) {
+  private onGraphContainerMouseMove(cyEventObject: EventObject) {
+    const originalEvent = cyEventObject.originalEvent;
     // @ts-ignore
     const renderer = this.cy?.renderer();
     if (
-      event.buttons === 1 &&
-      !isMultSelKeyDown(event) &&
+      originalEvent.buttons === 1 &&
+      !isMultSelKeyDown(originalEvent) &&
       !renderer.hoverData.down
     ) {
       this.panning = true;
-
-      this.dispatchMapEvent(event);
+      cyEventObject.preventDefault();
+      this.dispatchMapEvent(originalEvent);
     }
   }
 
@@ -417,6 +596,20 @@ export class MapHandler {
    */
   private onDataChange() {
     this.updateGeographicPositions();
+  }
+
+  onMapMoveEnd() {
+    // console.log("moveend");
+    setTimeout(() => {
+      this.cy?.nodes().forEach((node) => {
+
+        if (!this.getNodeLngLat(node)) {
+          // console.log("unlock");
+          // this.updateNodePosition(node);
+          node.unlock();
+        }
+      });
+    }, this.options?.delayOnMove || DEFAULT_MAP_MOVE_DELAY);
   }
 
   /**
@@ -530,7 +723,7 @@ export class MapHandler {
   private getGeographicPosition(
     node: cytoscape.NodeSingular
   ): cytoscape.Position | undefined {
-    const lngLat = this.getNodeLngLat(node);
+    const lngLat = this.getNodeLngLat(node) || (node.scratch('leaflet') && node.scratch('leaflet').currentGeoposition);
     if (!lngLat) {
       return;
     }
