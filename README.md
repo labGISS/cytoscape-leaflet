@@ -1,4 +1,5 @@
 # cytoscape-leaflet
+> The `multiple-layout` approach 
 
 Based on [cytoscape-mapbox-gl](https://zakjan.github.io/cytoscape-mapbox-gl/) by [zakjan](https://github.com/zakjan/)
 
