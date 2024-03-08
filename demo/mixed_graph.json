@@ -1,0 +1,4802 @@
+﻿[
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 66875,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 105.28881141216098,
+        "year": 2018,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:66875",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 66371,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 105.28881141216098,
+        "year": 2017,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:66371",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 65867,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 105.28881141216098,
+        "year": 2016,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:65867",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 65363,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 105.28881141216098,
+        "year": 2015,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:65363",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 64859,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 105.28881141216098,
+        "year": 2014,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:64859",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 64355,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 105.28881141216098,
+        "year": 2013,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:64355",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 63851,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 105.28881141216098,
+        "year": 2012,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:63851",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 59933,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 105.3,
+        "year": 2018,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59933",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 59216,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 105.3,
+        "year": 2017,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59216",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 58499,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 105.3,
+        "year": 2016,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:58499",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 57782,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 105.3,
+        "year": 2015,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57782",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 57065,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 105.3,
+        "year": 2014,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57065",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 56348,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 105.3,
+        "year": 2013,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:56348",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 55631,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 105.3,
+        "year": 2012,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:55631",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 55049,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 105.3,
+        "year": 2018,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:55049",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 54466,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 105.3,
+        "year": 2017,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:54466",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 53883,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 105.3,
+        "year": 2016,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:53883",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 53300,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 105.3,
+        "year": 2015,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:53300",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 52717,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 105.3,
+        "year": 2014,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:52717",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 52134,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 105.3,
+        "year": 2013,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:52134",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3185,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 791,
+        "loc": {
+          "srid": 4326,
+          "x": 16.47044579260769,
+          "y": 39.91201883550005,
+          "z": null
+        },
+        "code": 1805,
+        "name": "CASSANO ALL'IONIO",
+        "population": 49850
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "r": {
+      "identity": 51551,
+      "start": 2507,
+      "end": 3185,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 105.3,
+        "year": 2012,
+        "units": 101
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:51551",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3185"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 66891,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 127.40673099203313,
+        "year": 2018,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:66891",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 66387,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 127.40673099203313,
+        "year": 2017,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:66387",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 65883,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 127.40673099203313,
+        "year": 2016,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:65883",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 65379,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 127.40673099203313,
+        "year": 2015,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:65379",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 64875,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 127.40673099203313,
+        "year": 2014,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:64875",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 64371,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 127.40673099203313,
+        "year": 2013,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:64371",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 63867,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 127.40673099203313,
+        "year": 2012,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:63867",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 59955,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 127.5,
+        "year": 2018,
+        "units": 109
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59955",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 59238,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 127.5,
+        "year": 2017,
+        "units": 109
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59238",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 58521,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 127.5,
+        "year": 2016,
+        "units": 109
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:58521",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 57804,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 127.5,
+        "year": 2015,
+        "units": 109
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57804",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 57087,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 127.5,
+        "year": 2014,
+        "units": 109
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57087",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 56370,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 127.5,
+        "year": 2013,
+        "units": 109
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:56370",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 55653,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 127.5,
+        "year": 2012,
+        "units": 109
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:55653",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 55067,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 127.4,
+        "year": 2018,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:55067",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 54484,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 127.4,
+        "year": 2017,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:54484",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 53901,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 127.4,
+        "year": 2016,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:53901",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 53318,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 127.4,
+        "year": 2015,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:53318",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 52735,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 127.4,
+        "year": 2014,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:52735",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 52152,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 127.4,
+        "year": 2013,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:52152",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 51569,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Blue growth",
+        "employees_avg": 127.4,
+        "year": 2012,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:51569",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 5040,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "BUSINESS SERVICES",
+        "employees_avg": 127.40673099203315,
+        "year": 2018,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:5040",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 4492,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "BUSINESS SERVICES",
+        "employees_avg": 127.40673099203315,
+        "year": 2017,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:4492",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 3944,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "BUSINESS SERVICES",
+        "employees_avg": 127.40673099203315,
+        "year": 2016,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:3944",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 3396,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "BUSINESS SERVICES",
+        "employees_avg": 127.40673099203315,
+        "year": 2015,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:3396",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 2848,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "BUSINESS SERVICES",
+        "employees_avg": 127.40673099203315,
+        "year": 2014,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:2848",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 2300,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "BUSINESS SERVICES",
+        "employees_avg": 127.40673099203315,
+        "year": 2013,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:2300",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3186,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 14,
+        "area": 748,
+        "loc": {
+          "srid": 4326,
+          "x": 16.154513805845028,
+          "y": 39.77000784750007,
+          "z": null
+        },
+        "code": 1806,
+        "name": "CASTROVILLARI",
+        "population": 62669
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "r": {
+      "identity": 1752,
+      "start": 2507,
+      "end": 3186,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "BUSINESS SERVICES",
+        "employees_avg": 127.40673099203315,
+        "year": 2012,
+        "units": 110
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:1752",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3186"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 74808,
+      "start": 2084,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Logistical services",
+        "employees_avg": 883.1654293430124,
+        "year": 2018,
+        "units": 191
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:74808",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2084,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4941",
+        "description": "Trasporto di merci su strada"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 74529,
+      "start": 2084,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Logistical services",
+        "employees_avg": 883.1654293430124,
+        "year": 2017,
+        "units": 191
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:74529",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2084,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4941",
+        "description": "Trasporto di merci su strada"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 74250,
+      "start": 2084,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Logistical services",
+        "employees_avg": 883.1654293430124,
+        "year": 2016,
+        "units": 191
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:74250",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2084,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4941",
+        "description": "Trasporto di merci su strada"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 73971,
+      "start": 2084,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Logistical services",
+        "employees_avg": 883.1654293430124,
+        "year": 2015,
+        "units": 191
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:73971",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2084,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4941",
+        "description": "Trasporto di merci su strada"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 73692,
+      "start": 2084,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Logistical services",
+        "employees_avg": 883.1654293430124,
+        "year": 2014,
+        "units": 191
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:73692",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2084,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4941",
+        "description": "Trasporto di merci su strada"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 73413,
+      "start": 2084,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Logistical services",
+        "employees_avg": 883.1654293430124,
+        "year": 2013,
+        "units": 191
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:73413",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2084,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4941",
+        "description": "Trasporto di merci su strada"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 73134,
+      "start": 2084,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Logistical services",
+        "employees_avg": 883.1654293430124,
+        "year": 2012,
+        "units": 191
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:73134",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2084,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4941",
+        "description": "Trasporto di merci su strada"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2084"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 72438,
+      "start": 1580,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 313.34636635364456,
+        "year": 2018,
+        "units": 287
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:72438",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 1580,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4618",
+        "description": "Intermediari del commercio specializzato in altri prodotti"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 72454,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 324.6989861636266,
+        "year": 2018,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:72454",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 71632,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 324.6989861636266,
+        "year": 2017,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:71632",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 71616,
+      "start": 1580,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 313.34636635364456,
+        "year": 2017,
+        "units": 287
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:71616",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 1580,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4618",
+        "description": "Intermediari del commercio specializzato in altri prodotti"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 70810,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 324.6989861636266,
+        "year": 2016,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:70810",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 70794,
+      "start": 1580,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 313.34636635364456,
+        "year": 2016,
+        "units": 287
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:70794",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 1580,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4618",
+        "description": "Intermediari del commercio specializzato in altri prodotti"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 69988,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 324.6989861636266,
+        "year": 2015,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:69988",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 69972,
+      "start": 1580,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 313.34636635364456,
+        "year": 2015,
+        "units": 287
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:69972",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 1580,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4618",
+        "description": "Intermediari del commercio specializzato in altri prodotti"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 69166,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 324.6989861636266,
+        "year": 2014,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:69166",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 69150,
+      "start": 1580,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 313.34636635364456,
+        "year": 2014,
+        "units": 287
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:69150",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 1580,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4618",
+        "description": "Intermediari del commercio specializzato in altri prodotti"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 68344,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 324.6989861636266,
+        "year": 2013,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:68344",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 68328,
+      "start": 1580,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 313.34636635364456,
+        "year": 2013,
+        "units": 287
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:68328",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 1580,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4618",
+        "description": "Intermediari del commercio specializzato in altri prodotti"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 67506,
+      "start": 1580,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 313.34636635364456,
+        "year": 2012,
+        "units": 287
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:67506",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 1580,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "4618",
+        "description": "Intermediari del commercio specializzato in altri prodotti"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:1580"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 67522,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Experience industries",
+        "employees_avg": 324.6989861636266,
+        "year": 2012,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:67522",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 66936,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 861.4472289544667,
+        "year": 2018,
+        "units": 765
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:66936",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 66432,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 861.4472289544667,
+        "year": 2017,
+        "units": 765
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:66432",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 65928,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 861.4472289544667,
+        "year": 2016,
+        "units": 765
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:65928",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 65424,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 861.4472289544667,
+        "year": 2015,
+        "units": 765
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:65424",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 64920,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 861.4472289544667,
+        "year": 2014,
+        "units": 765
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:64920",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 64416,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 861.4472289544667,
+        "year": 2013,
+        "units": 765
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:64416",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 63912,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Environmental industries",
+        "employees_avg": 861.4472289544667,
+        "year": 2012,
+        "units": 765
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:63912",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 60021,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 324.7,
+        "year": 2018,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:60021",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 60014,
+      "start": 2332,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 330.7,
+        "year": 2018,
+        "units": 174
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:60014",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2332,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "6311",
+        "description": "Elaborazione dei dati, hosting e attività connesse"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 60022,
+      "start": 2504,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 194.1,
+        "year": 2018,
+        "units": 178
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:60022",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2504,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7111",
+        "description": "Attività degli studi di architettura"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 60030,
+      "start": 2576,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 0.0,
+        "year": 2018,
+        "units": 193
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:60030",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2576,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7490",
+        "description": "Altre attività professionali, scientifiche e tecniche nca"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 60023,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 865.1,
+        "year": 2018,
+        "units": 770
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:60023",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 59313,
+      "start": 2576,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 0.0,
+        "year": 2017,
+        "units": 193
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59313",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2576,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7490",
+        "description": "Altre attività professionali, scientifiche e tecniche nca"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 59297,
+      "start": 2332,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 330.7,
+        "year": 2017,
+        "units": 174
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59297",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2332,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "6311",
+        "description": "Elaborazione dei dati, hosting e attività connesse"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 59305,
+      "start": 2504,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 194.1,
+        "year": 2017,
+        "units": 178
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59305",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2504,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7111",
+        "description": "Attività degli studi di architettura"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 59304,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 324.7,
+        "year": 2017,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59304",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 59306,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 865.1,
+        "year": 2017,
+        "units": 770
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:59306",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 58596,
+      "start": 2576,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 0.0,
+        "year": 2016,
+        "units": 193
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:58596",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2576,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7490",
+        "description": "Altre attività professionali, scientifiche e tecniche nca"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 58588,
+      "start": 2504,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 194.1,
+        "year": 2016,
+        "units": 178
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:58588",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2504,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7111",
+        "description": "Attività degli studi di architettura"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 58589,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 865.1,
+        "year": 2016,
+        "units": 770
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:58589",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 58580,
+      "start": 2332,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 330.7,
+        "year": 2016,
+        "units": 174
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:58580",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2332,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "6311",
+        "description": "Elaborazione dei dati, hosting e attività connesse"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 58587,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 324.7,
+        "year": 2016,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:58587",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57870,
+      "start": 2498,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 324.7,
+        "year": 2015,
+        "units": 142
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57870",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2498,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7022",
+        "description": "Consulenza imprenditoriale e altra consulenza amministrativo-gestionale"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2498"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57879,
+      "start": 2576,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 0.0,
+        "year": 2015,
+        "units": 193
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57879",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2576,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7490",
+        "description": "Altre attività professionali, scientifiche e tecniche nca"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57872,
+      "start": 2507,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 865.1,
+        "year": 2015,
+        "units": 770
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57872",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2507,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7112",
+        "description": "Attività degli studi d'ingegneria ed altri studi tecnici"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2507"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57871,
+      "start": 2504,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 194.1,
+        "year": 2015,
+        "units": 178
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57871",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2504,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7111",
+        "description": "Attività degli studi di architettura"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57863,
+      "start": 2332,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 330.7,
+        "year": 2015,
+        "units": 174
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57863",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2332,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "6311",
+        "description": "Elaborazione dei dati, hosting e attività connesse"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57154,
+      "start": 2504,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 194.1,
+        "year": 2014,
+        "units": 178
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57154",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2504,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7111",
+        "description": "Attività degli studi di architettura"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2504"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57162,
+      "start": 2576,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 0.0,
+        "year": 2014,
+        "units": 193
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57162",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2576,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "7490",
+        "description": "Altre attività professionali, scientifiche e tecniche nca"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2576"
+    }
+  },
+  {
+    "n": {
+      "identity": 3189,
+      "labels": [
+        "Sll"
+      ],
+      "properties": {
+        "ncom": 52,
+        "area": 1508,
+        "loc": {
+          "srid": 4326,
+          "x": 16.24775109911668,
+          "y": 39.35211262450005,
+          "z": null
+        },
+        "code": 1809,
+        "name": "COSENZA",
+        "population": 261238
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "r": {
+      "identity": 57146,
+      "start": 2332,
+      "end": 3189,
+      "type": "CLUSTER_RELAZIONA",
+      "properties": {
+        "cluster": "Creative industries",
+        "employees_avg": 330.7,
+        "year": 2014,
+        "units": 174
+      },
+      "elementId": "5:6271592b-fa95-4a8c-a96b-9e1690c478b2:57146",
+      "startNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332",
+      "endNodeElementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:3189"
+    },
+    "m": {
+      "identity": 2332,
+      "labels": [
+        "Ateco"
+      ],
+      "properties": {
+        "code": "6311",
+        "description": "Elaborazione dei dati, hosting e attività connesse"
+      },
+      "elementId": "4:6271592b-fa95-4a8c-a96b-9e1690c478b2:2332"
+    }
+  }
+]
