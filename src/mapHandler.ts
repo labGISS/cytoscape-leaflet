@@ -383,11 +383,16 @@ export class MapHandler {
         nodesWithoutPosition.addClass(HIDDEN_CLASS).style('display', 'none');
       }
 
+      nodesWithPosition.unlock();
+
       nodesWithPosition
         ?.layout({
           name: 'preset',
           positions: updatedPositions,
           fit: false,
+          stop: () => {
+            this.filterNodes('native-geographic', nodesWithPosition).lock();
+          }
         })
         .run();
     };
@@ -426,6 +431,7 @@ export class MapHandler {
     //   })
     //   .run();
 
+    nodes.unlock();
     this.deleteInternalLayoutPosition(nodes);
     this.runDefaultLayout(nodes);
     this.originalPositions = undefined;

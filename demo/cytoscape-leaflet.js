@@ -643,10 +643,14 @@
 	          nodesWithoutPosition.addClass(HIDDEN_CLASS).style('display', 'none');
 	        }
 
+	        nodesWithPosition.unlock();
 	        nodesWithPosition === null || nodesWithPosition === void 0 ? void 0 : nodesWithPosition.layout({
 	          name: 'preset',
 	          positions: updatedPositions,
-	          fit: false
+	          fit: false,
+	          stop: function stop() {
+	            _this3.filterNodes('native-geographic', nodesWithPosition).lock();
+	          }
 	        }).run();
 	      };
 
@@ -683,6 +687,7 @@
 	      //   })
 	      //   .run();
 
+	      nodes.unlock();
 	      this.deleteInternalLayoutPosition(nodes);
 	      this.runDefaultLayout(nodes);
 	      this.originalPositions = undefined;
