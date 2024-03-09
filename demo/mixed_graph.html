@@ -66,6 +66,8 @@
     <button id="mode">Toggle Map</button>
     <div style="height: 10px"></div>
     <button id="add-node">Add Node</button>
+    <button id="stop-layouts">Stop Layouts</button>
+    <button id="toggle-layouts">Toggle Layout</button>
     <button id="reset-view">Reset View</button>
 </div>
 
@@ -124,6 +126,7 @@
             name: 'd3-force',
             animate: true,
             fixedAfterDragging: false,
+            ungrabifyWhileSimulating: true,
             linkId: function id(d) {
                 return d.id;
             },
@@ -139,11 +142,18 @@
             // some more options here...
         };
 
-        // const defaultLayout = {
-        //     name: 'cose',
-        //     animate: false,
-        //     nodeRepulsion: 1000000
-        // };
+        const mapLayout = {
+            name: 'cose',
+            animate: false,
+            nodeRepulsion: 1000000,
+            fit: false,
+        };
+
+        let layoutInstances = [];
+        const stopLayouts = () => {
+            // console.log("Instances: ", layoutInstances);
+            layoutInstances.forEach(ls => ls.stop());
+        }
 
         const cy = cytoscape({
             container: document.getElementById('graph'),
@@ -256,6 +266,24 @@
         cy.edgehandles();
         cy.lassoSelectionEnabled(true);
 
+        console.log("SADSAD");
+
+        cy.layout(defaultLayout).run();
+
+        cy.on('layoutstart', e => {
+            // console.log("layoutstart", e);
+            if (e.layout) {
+                layoutInstances.push(e.layout);
+            }
+        });
+
+        cy.on('layoutstop', e => {
+            // console.log("layoutstop", e);
+            if (e.layout) {
+                layoutInstances.splice(layoutInstances.indexOf(e.layout), 1);
+            }
+        });
+
         cy.on('mouseover', '*', e => {
             e.target.addClass('hover');
             e.cy.container().style.cursor = 'pointer';
@@ -267,6 +295,7 @@
 
         let cyMap;
         const toggleMap = () => {
+            // stopLayouts();
             if (!cyMap) {
                 cy.container().setAttribute("id", "graph");
 
@@ -289,7 +318,7 @@
                     // },
                     animate: true,
                     animationDuration: 1000,
-                    layout: defaultLayout
+                    layout: mapLayout
                 });
                 window.cyMap = cyMap;
                 L.tileLayer('//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -305,7 +334,7 @@
             }
         };
         document.getElementById('mode').addEventListener('click', toggleMap);
-        cy.ready(() => toggleMap());
+        // cy.ready(() => toggleMap());
 
         const minLng = cy.nodes().reduce((acc, node) => Math.min(acc, node.data('lng') || acc), Infinity);
         const maxLng = cy.nodes().reduce((acc, node) => Math.max(acc, node.data('lng') || acc), -Infinity);
@@ -332,6 +361,23 @@
                 data: { source: randomId, target: nodesUniqueById[0]["data"]["id"] }
             });
         };
+
+        let v = false;
+        const toggleLayouts = (e) => {
+            if (v) {
+                console.log("defaultLayout");
+                cy.layout(defaultLayout).run();
+            } else {
+                console.log("mapLayout");
+                cy.layout(mapLayout).run();
+            }
+
+            v = !v;
+        }
+
+        document.getElementById('stop-layouts').addEventListener('click', stopLayouts);
+        document.getElementById('toggle-layouts').addEventListener('click', toggleLayouts);
+
         document.getElementById('add-node').addEventListener('click', addNode);
 
         const resetView = () => {
