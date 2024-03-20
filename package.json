@@ -21,7 +21,7 @@
     "dist/index.ts",
     "README.md"
   ],
-  "browser": "dist/cytoscape-leaflet-1.0.15.min.js",
+  "browser": "dist/cytoscape-leaflet-1.0.15-lock-nodes.min.js",
   "scripts": {
     "build": "rimraf dist && rollup -c",
     "dev": "rollup -c -w",
